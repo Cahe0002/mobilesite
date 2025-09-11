@@ -10,32 +10,59 @@ img {
 }
 
 /*Index*/
-/* 
-section.grid_1-1 {
+
+.section_grid_2-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-} */
+}
+
+.mincomputerlink {
+  display: grid;
+  grid-column: 1/3;
+  gap: 10px;
+}
+
+@media (width>=800px) {
+  .section_grid_1-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+  }
+
+  .order {
+    order: -1;
+  }
+}
 
 /*Min Computer*/
 
-/* .grid_1-1_mincomputer {
+.grid_1-1_computer {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-row: 3;
+  gap: 10px;
 }
 
-.h1_mincomputer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+@media (width>=800px) {
+  .grid_1-1_computer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .h2paragraph {
+    display: grid;
+    grid-column: 2/3;
+  }
 }
-
-.computer {
-  display: grid;
-} */
 
 /*Operativsystemer*/
 
 /*Komponenter*/
+
+.grid_1-1-1 {
+  display: grid;
+}
+
+.grafikkort {
+  display: grid;
+  grid-row: 2;
+}
 
 /*Galleri*/
 
@@ -111,7 +138,8 @@ section.grid_1-1 {
     grid-row: 1/3;
   }
 
-  .code {
+  .code,
+  .desktup {
     grid-column: 2/4;
   }
 

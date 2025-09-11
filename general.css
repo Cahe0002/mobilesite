@@ -25,6 +25,14 @@ h1 {
   font-family: "Kode Mono", monospace;
 }
 
+.h1_computer {
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-position: bottom right;
+  font-family: "Kode Mono", monospace;
+}
+
 h2 {
   margin-top: 20px;
   color: rgb(0, 0, 0);
